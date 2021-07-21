@@ -1,0 +1,102 @@
+.login{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/pexels-engin-akyurt-1435752.jpg);
+}
+.loginContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 50vh;
+  background-color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  box-shadow: 20px 20px 40px rgba(22, 37, 80, 0.55);
+}
+@media(max-width: 1100px){
+  .loginContainer{
+    width: 30%;
+    height: 45vh;
+  }
+}
+@media(max-width: 992px){
+  .loginContainer{
+    width: 40%;
+
+  }
+}
+@media(max-width: 768px){
+  .loginContainer{
+    width: 50%;
+
+  }
+}
+@media(max-width: 590px){
+  .loginContainer{
+    width: 80%;
+    height: 40vh;
+  }
+}
+@media(max-width: 400px){
+  .loginContainer{
+    width: 80%;
+  }
+}
+.login-title{
+  font-size: 25px;
+}
+.login-input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(168, 168, 168);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+}
+.btnContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-btn{
+  width: 75%;
+  height: 35px;
+  background-image: linear-gradient(to right, rgb(63, 45, 131) , rgb(94, 195, 241));
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.sign-in-btn{
+  color: rgb(252, 29, 13);
+  cursor: pointer;
+}
+.errorMsg{
+  color: red;
+  margin-top: 10px;
+  width: 70%;
+  font-size: 13px;
+}

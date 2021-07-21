@@ -1,0 +1,45 @@
+.hero{
+  width: 100vw;
+  overflow-x: hidden;
+}
+.logout-form{
+  position: relative;
+}
+.logout-btn-container{
+  position: absolute;
+  top: 20px;
+  left: 85%;
+}
+.logout-btn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+}
+@media(max-width: 992px){
+  .logout-btn{
+    font-size: 15px;
+  }
+}
+@media(max-width: 500px){
+  .logout-btn{
+    font-size: 12px;
+  }
+}
+.logout-btn .fa-sign-out-alt{
+  margin-right: 5px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+@media(max-width: 992px){
+  .logout-btn .fa-sign-out-alt{
+    font-size: 15px;
+  }
+}
+@media(max-width: 500px){
+  .logout-btn .fa-sign-out-alt{
+    font-size: 12px;
+  }
+}
